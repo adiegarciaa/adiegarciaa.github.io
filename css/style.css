@@ -1,0 +1,241 @@
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus,
+input,
+input:hover,
+input:active,
+input:visited,
+input:focus { outline: none!important; text-decoration: none; -webkit-transition: all 0.2s!important; transition: all 0.2s!important; }
+*{
+	margin:0;
+	padding:0;
+}
+html{
+	width:100%;
+	min-width: 1170px;
+}
+
+@font-face {
+  font-family: 'OpenSans-CondensedLight';
+  src:
+  url('../fonts/OpenSans-CondensedLight.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/OpenSans-CondensedLight.woff') format('woff'),
+  url('../fonts/OpenSans-CondensedLight.ttf')  format('truetype'),
+  url('../fonts/OpenSans-CondensedLight.svg#OpenSans-CondensedLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.ui-widget{
+	font-family: 'OpenSans-CondensedLight';
+}
+body{
+	color:#fff;
+	background-color:#eabafe;
+	background-image:url(../images/body_bg.png);
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	background-size:contain;
+	font-family: 'OpenSans-CondensedLight';
+	font-size:16px;
+}
+a,a:visited,a:active,a:focus{color:#523594;}
+a:hover{color:#eabafe;}
+.text-center{text-align: center;}
+h1,h2,h3,h4,h5,h6{
+	font-weight: bold;
+	margin-top:20px;
+}
+h1{
+	font-size:30px;
+}
+h2{
+	font-size:25px;
+}
+h3{
+	font-size:20px;
+}
+h4,h5,h6{
+	font-size:18px;
+}
+#vCenter{
+	display:table; margin:0 auto;
+}
+#vCenter .vCenterHolder{
+	height:100%;
+	display:table-cell;
+	vertical-align: middle;
+}
+.container{
+	margin:0 auto;
+	width:1170px;
+}
+.main{
+	width:750px;
+	margin:0 auto;
+}
+.subtitle{
+	color:#797979;
+}
+.homepageLogoContainer{
+	text-align:center;
+	color:#fff;
+}
+.homepageLogoContainer h1{
+	letter-spacing: 0.1em;
+	margin:15px 0;
+}
+.homepageLogoContainer span{
+	text-align: right;
+	display:block;
+}
+.bottomButton{
+	text-align:right;
+}
+#vCenter .bottomButton .btn{
+	margin-top:50px;
+} 
+.bottomButton .btn{
+	background:#ffac2a;
+	border:1px solid #ffca2a;
+	color:#fff;
+	text-transform: uppercase;
+	border-radius: 5px;
+	padding:10px 20px;
+	display: inline-block;
+}
+.bottomButton .btn img{
+	vertical-align: bottom;
+	width: 18px;
+	padding: 2px 5px;
+	padding-right: 0px;
+}
+.bottomButton .btn:hover{
+	background:#ff9414;
+	border-color: #d97906;
+}
+.logo{
+	text-align: center;
+	margin-top:25px;
+}
+nav ul{
+	text-align: center;
+	margin:15px 0;
+}
+nav ul li{
+	display:inline-block;
+	text-transform: uppercase;
+	margin-left:30px;
+}
+nav ul li:first-child{
+	margin-left:0;
+}
+nav ul li a{
+	color:#fff;
+	border:1px solid #fff;
+	padding:5px 55px;
+	display: inline-block;
+}
+nav ul li a:visited{
+	color:#fff;
+}
+nav ul li a:hover{
+	color:#fff;
+	background:#ffca2a;
+	border-color:#ffca2a;
+}
+nav ul li a.active{
+	color:#fff;
+	background:#ffca2a;
+	border-color:#ffca2a;
+}
+.content{
+	padding:20px 0;
+	color:#2d2d2d;
+}
+.content .image1{
+	display:inline-block;
+	margin-right:5px;
+}
+.content .image2{
+	display:inline-block;
+	margin-left:5px;
+}
+.content .image1 img{
+	width:350px;
+}
+.content .image2 img{
+	width:350px;
+}
+#connect .boxHolder{
+	border-radius: 10px;
+	background:#fff;
+}
+.content .boxHolder{
+	float:left;
+	width:100%;
+}
+.content .boxHolder .imageHolder{
+	float:left;
+}
+.content .boxHolder .infoHolder{
+	float:left;
+	margin-left:15px;
+	width:60%;
+}
+.content .boxHolder .imageHolder img{
+	border-radius: 10px 0 0 10px;
+	display:block;
+}
+.content .boxHolder .infoHolder h2{
+	margin:10px;
+	text-transform: uppercase;
+}
+.content .boxHolder .infoHolder p{
+	margin-left:10px;
+}
+.content .boxHolder .infoHolder ul{
+	list-style:none;
+	margin-left:10px;
+}
+.content .boxHolder .infoHolder ul li{
+	padding-bottom:10px;
+}
+.content .boxHolder .infoHolder ul li img{
+	vertical-align: middle;
+	padding-right:5px;
+}
+.content .ui-tabs .ui-tabs-nav{
+	padding:0;
+}
+.content .ui-tabs .ui-tabs-nav li{
+	border:none;
+	border-radius:0;
+	margin-right:0;
+}
+.content .ui-widget-content{
+	background:transparent;
+}
+.content .ui-widget.ui-widget-content{
+	border:none;
+}
+.content .ui-widget-header{
+	background:transparent;
+	border: none;
+	border-radius: 0;
+}
+.content #tabs-1{
+	background:#fff;
+}
+.content #tabs-2{
+	background:#fff;
+}
+a.fancybox.galleryItem{
+	padding:5px;
+	display:inline-block;
+	cursor: pointer;
+}
+a.fancybox.galleryItem img{
+	cursor: pointer;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Adie Garcia - About</title>
+<link rel="stylesheet" href="css/jquery-ui.css">
+<link rel="stylesheet" href="css/jquery-ui.theme.css">
+<link rel="stylesheet" href="css/slick.css">
+<link rel="stylesheet" href="css/slick-theme.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+	<div class="main">
+		<header>
+			<div class="logo">
+			 <a href="main.html">
+			 	<img src="images/logo.png" alt="logo" width="120"/>
+			 </a>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="about.html" class="active">Adie</a></li>
+					<li><a href="travels.html">#Adietravels</a></li>
+					<li><a href="resume.html">Resume</a></li>
+					<li><a href="connect.html">Connect</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="content">
+			<center>
+				<div class="aboutSlider slider">
+				  <img src="images/slide_1.jpg" alt="Adie"/>
+				  <img src="images/slide_2.jpg" alt="Adie"/>
+				  <img src="images/slide_3.jpg" alt="Adie"/>
+				  <img src="images/slide_4.jpg" alt="Adie"/>
+				</div>
+			</center>
+			<h3>ABOUT ME</h3>
+			<p>Adriene Mae P. Garcia (much preferred to be called Adie) is a 19-year- old sucker for traveling and adventures. Traveling makes me happy and relieves my stress.</p>
+			<h3>HOBBIES</h3>
+			<p>Aside from traveling, I am also a fan of sports such as volleyball and basketball. I love playing volleyball and watching basketball, those are part of my hobbies aside from using gadgets. In addition, a good long drive with great company is also my thing, especially during weekends wherein traffic is definitely much lesser. I do also watch series and kdrama during breaks to satisfy my addiction on those.</p>
+		</div>
+	</div>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/slick.js"></script>
+<script src="js/custom.js"></script>
+<script>
+jQuery(document).ready(function($){
+  $('.aboutSlider').slick({
+  	  dots: false,
+  	  arrows: false,
+	  infinite: true,
+	  autoplay: true,
+	  speed: 500,
+	  fade: true,
+	  cssEase: 'linear'
+  });
+});
+</script>
+</body>
+</html>

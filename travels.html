@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Adie Garcia - Travels</title>
+<link rel="stylesheet" href="css/jquery-ui.css">
+<link rel="stylesheet" href="css/jquery-ui.theme.css">
+<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" />
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+	<div class="main">
+		<header>
+			<div class="logo">
+			 <a href="main.html">
+			 	<img src="images/logo.png" alt="logo" width="120"/>
+			 </a>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="about.html">Adie</a></li>
+					<li><a href="travels.html" class="active">#Adietravels</a></li>
+					<li><a href="resume.html">Resume</a></li>
+					<li><a href="connect.html">Connect</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="content">
+			<div id="tabs">
+			  <ul>
+			    <li><a href="#tabs-1">Local</a></li>
+			    <li><a href="#tabs-2">International</a></li>
+			  </ul>
+			  <div id="tabs-1">
+			    <div class="imageRow">
+			    	<a class="fancybox galleryItem" href="images/full/1.jpg" data-fancybox-group="galleryLocal" >
+			    		<img src="images/1.png" />
+			    	</a>
+			    	<a class="fancybox galleryItem" href="images/full/2.jpg" data-fancybox-group="galleryLocal" >
+			    		<img src="images/2.png" />
+			    	</a>
+			    	<a class="fancybox galleryItem" href="images/full/3.jpg" data-fancybox-group="galleryLocal" >
+			    		<img src="images/3.png" />
+			    	</a>
+			    	<a class="fancybox galleryItem" href="images/full/4.jpg" data-fancybox-group="galleryLocal" >
+			    		<img src="images/4.png" />
+			    	</a>
+			    	<a class="fancybox galleryItem" href="images/full/5.jpg" data-fancybox-group="galleryLocal" >
+			    		<img src="images/5.png" />
+			    	</a>
+			    	<a class="fancybox galleryItem" href="images/full/6.jpg" data-fancybox-group="galleryLocal" >
+			    		<img src="images/6.png" />
+			    	</a>
+			    	<a class="fancybox galleryItem" href="images/full/7.jpg" data-fancybox-group="galleryLocal" >
+			    		<img src="images/7.png" />
+			    	</a>
+			    	<a class="fancybox galleryItem" href="images/full/8.jpg" data-fancybox-group="galleryLocal" >
+			    		<img src="images/8.png" />
+			    	</a>
+			    </div>
+			  </div>
+			  <div id="tabs-2">
+			    <div class="imageRow">
+			    	<a class="fancybox galleryItem" href="images/int/full/1.jpg" data-fancybox-group="galleryInt" >
+			    		<img src="images/int/1.png" />
+			    	</a>
+			    	<a class="fancybox galleryItem" href="images/int/full/2.jpg" data-fancybox-group="galleryInt" >
+			    		<img src="images/int/2.png" />
+			    	</a>
+			    	<a class="fancybox galleryItem" href="images/int/full/3.jpg" data-fancybox-group="galleryInt" >
+			    		<img src="images/int/3.png" />
+			    	</a>
+			    	<a class="fancybox galleryItem" href="images/int/full/4.jpg" data-fancybox-group="galleryInt" >
+			    		<img src="images/int/4.png" />
+			    	</a>
+			    	<a class="fancybox galleryItem" href="images/int/full/5.jpg" data-fancybox-group="galleryInt" >
+			    		<img src="images/int/5.png" />
+			    	</a>
+			    	<a class="fancybox galleryItem" href="images/int/full/6.jpg" data-fancybox-group="galleryInt" >
+			    		<img src="images/int/6.png" />
+			    	</a>
+			    	<a class="fancybox galleryItem" href="images/int/full/7.jpg" data-fancybox-group="galleryInt" >
+			    		<img src="images/int/7.png" />
+			    	</a>
+			    	<a class="fancybox galleryItem" href="images/int/full/8.jpg" data-fancybox-group="galleryInt" >
+			    		<img src="images/int/8.png" />
+			    	</a>
+			    </div>
+			  </div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+<script src="js/custom.js"></script>
+<script>
+	jQuery(document).ready(function($){
+		$('.fancybox').fancybox();
+	});
+</script>
+</body>
+</html>
